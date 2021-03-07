@@ -128,8 +128,7 @@ console.log("testxw"); // const user = new User();
 // const company = new Company();
 // console.log(company);
 
-var divMap = document.getElementById("map");
-var maps = new google.maps.Map(divMap, {
+var map = new google.maps.Map(divMap, {
   zoom: 1,
   center: {
     lat: 0,
@@ -164,7 +163,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34453" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37395" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

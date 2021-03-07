@@ -8,9 +8,9 @@ console.log("testxw");
 // const company = new Company();
 // console.log(company);
 
-const divMap = document.getElementById("map");
 
-const maps = new google.maps.Map(divMap, {
+
+const map = new google.maps.Map(divMap, {
     zoom: 1,
     center: { lat: 0, lng: 0 },
 });
