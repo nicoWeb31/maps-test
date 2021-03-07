@@ -3,4 +3,5 @@ export interface mappable{
         lat: number;
         long: number;
     };
+    markerContent():string
 }

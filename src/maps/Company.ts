@@ -18,7 +18,11 @@ export class Company  implements mappable{
             long: parseFloat(faker.address.longitude())
         }
     }
+    
 
+    markerContent():string{
+        return 'the company name : ' + this.compagnyName;
+    }
 
 
 
