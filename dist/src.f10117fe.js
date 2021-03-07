@@ -123131,27 +123131,20 @@ function () {
       }
     });
     ;
-  }
+  } // addUserMarker(user: User): void {
+  //     new google.maps.Marker({
+  //         map: this.googleMap,
+  //         position: { lat: user.location.lat, lng: user.location.long },
+  //     })
+  // }
+  // addMarkerCompagny(company: Company): void {
+  //     new google.maps.Marker({
+  //         map: this.googleMap,
+  //         position: { lat: company.location.lat, lng: company.location.long },
+  //     })
+  // }
+  //my methode 
 
-  CustomMap.prototype.addUserMarker = function (user) {
-    new google.maps.Marker({
-      map: this.googleMap,
-      position: {
-        lat: user.location.lat,
-        lng: user.location.long
-      }
-    });
-  };
-
-  CustomMap.prototype.addMarkerCompagny = function (company) {
-    new google.maps.Marker({
-      map: this.googleMap,
-      position: {
-        lat: company.location.lat,
-        lng: company.location.long
-      }
-    });
-  };
 
   CustomMap.prototype.addMarker = function (marker) {
     new google.maps.Marker({
